@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+
+  #header {
+    background: #000F41;
+    color: white;
+    padding-bottom: 1em;
+
+    img {
+      width: 200px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    nav {
+      li {
+        display: inline;
+        list-style: none;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        padding: 10px 2em;
+        margin: 0 10px;
+
+        &:hover {
+          background: #003cdc;
+        }
+      }
+
+      a {
+        margin: 1em;
+        padding: 10px 2em;
+        color: #FFFFFF;
+        display:inline-block;
+      }
+    }
+  }
+
+
+}
